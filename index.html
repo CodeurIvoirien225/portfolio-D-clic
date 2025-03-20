@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+     <!-- Encodage de Caractères : UTF-8 -->
+     <meta charset="UTF-8">
+     <!--Mode d'affichage sur tous les appareils-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Description de la page web-->
+     <meta name="description" content="Portfolio-personnel">
+     <!--Auteur de la page-->
+     <meta name="author" content="Kone el abass abdoul anziz">
+     <!-- Mots-clés: HTML -->
+     <meta name="keywords" content="HTML">
+     <!-- Temps d'actualisation  de la page : 60 secondes -->
+     <meta http-equiv="refresh" content="60">
+     <title>Portfolio-personnel</title>
+     <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo"> <span id="abass"> EL ABASS </span> ABDOUL ANZIZ KONE</div>
+
+        <nav>
+            <a href="#home">Accueil</a>
+            <a href="#about">À propos</a>
+            <a href="#skills">Compétences acquises</a>
+            <a href="#projects">Projets </a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+
+        <!-- la section accueil -->
+        <section id="home">
+            <div class="container">
+                <div class="item">
+                    Je suis <span>El abass abdoul anziz kone</span>, developpeur en devenir <br>
+                    passionné par le web et le design ! <br>
+                    <div class="center-btn">
+                    <a href="#projects" class="btn1">Voir mes projets</a>
+
+                    </div>
+
+
+                </div>
+
+                <div class="image">
+                    <img src="images/image1.png" alt="une image simple pas trop important">
+                </div>
+            </div>
+        </section>
+
+<!--le section à propos -->
+<section id="about">
+    <h3>À Propos</h3>
+    <div class="container">
+        <div class="item">
+           <p> Je m'appelle <span>El abass abdoul anziz kone</span>, passionné par la création de sites web modernes et interactif </p> <br>
+            je suis actuellement étudiant en <span> developpement web </span>, et je cherche à améliorer mes Compétences en JavaScript, HTML, CSS. <br>
+          <br>  <p>J'adore transformer mes idées en projets concrets <br> et expérimenter avec les nouvelles technologies.</p> 
+
+          <div class="center-btn2">
+          <button class="btn2">Télécharger mon CV</button>
+          </div>
+
+
+        </div>
+
+        <div class="image">
+            <img src="images/ma_photo.jpg" alt="une image simple pas trop important">
+        </div>
+    </div>
+</section>
+
+<!-- La section dédiée aux projets -->
+<section id="projects">
+    <h3>Mes Projets</h3>
+    <div class="container-projects">
+        <div class="projet">
+            <h4>Calculateur de PGCD</h4> <br>
+            <p>Une application permettant de calculer le Plus Grand Commun Diviseur (PGCD) entre deux nombres. 
+               Elle est utile en mathématiques, notamment en cryptographie et en algèbre.</p>
+        </div>
+
+        <div class="projet">
+            <h4>Convertisseur de Base</h4> <br>
+            <p>Un outil interactif qui convertit les nombres entre différentes bases : décimale, binaire, octale et hexadécimale. 
+               Idéal pour les développeurs et les étudiants en informatique.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Une section dédiée à mes compétences -->
+<section id="skills">
+    <h3>Mes Compétences</h3>
+    <div class="container-skills">
+
+        <!-- Bloc Soft Skills -->
+        <div class="skills-block">
+            <h4>Soft Skills</h4>
+            <div class="skill">
+                <h5>Gestion de projet</h5>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 65%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h5>Résolution de problème</h5>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h5>Adaptabilité</h5>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bloc Hard Skills -->
+        <div class="skills-block">
+            <h4>Hard Skills</h4>
+            <div class="skill">
+                <h5>HTML</h5>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h5>CSS</h5>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 65%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h5>JavaScript</h5>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 65%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h5>VS Code</h5>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 65%;"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- formualire -->
+<section id="contact" class="contact-section">
+    <h2>Vous avez un <span class="highlight">projet en tête ?</span></h2>
+    <p>N'hésitez pas à me <span class="highlight">contacter</span></p>
+
+    <form class="contact-form">
+        <div class="form-group">
+            <div class="name-inputs"> 
+                <div class="input-container">
+                    <label for="prenom">Votre prénom</label>
+                    <input type="text" name="prenom" placeholder="Votre prénom" required>
+                </div>
+                <div class="input-container">
+                    <label for="nom">Votre nom</label>
+                    <input type="text" name="nom" placeholder="Votre nom" required>
+                </div>
+            </div>
+            <div class="input-container">
+                <label for="sujet">Votre sujet</label>
+                <input type="text" name="sujet" placeholder="Votre sujet" required>
+            </div>
+            <div class="input-container">
+                <textarea placeholder="Écrivez votre message ici !" required></textarea>
+            </div>
+        </div>
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+
+    </main>
+
+    <footer>
+        <p>Designed by <span class="highlight">EL ABASS ABDOUL ANZIZ KONE</span> with HTML, CSS, JS</p>
+        <p> Tous droits réservés - 2025</p>
+    </footer>
+</body>
+
+</html>
